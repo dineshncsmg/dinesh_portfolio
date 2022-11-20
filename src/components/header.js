@@ -8,7 +8,7 @@ const Header = () => (
   <header>
         <div className="container">
         <nav className="navbar navbar-expand-lg">
-            <a className="navbar-brand" href="javascript:void(0)"><img src={logo} alt=""/></a>
+        <a className="navbar-brand" href="/"><span>Dinesh Portfolio</span></a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -20,22 +20,22 @@ const Header = () => (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#0">Home</a>
+                        <a className="nav-link" href="#banner_dinesh">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#0">About Me</a>
+                        <a className="nav-link" href="#about_dinesh">About Me</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#0">Experience</a>
+                        <a className="nav-link" href="#experience_dinesh">Experience</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#0">Skills</a>
+                        <a className="nav-link" href="#skills_dinesh">Skills</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#0">Blogs</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#0">Contact Me</a>
+                        <a className="nav-link" href="#contact_dinesh">Contact Me</a>
                     </li>
                 </ul>
             </div>
