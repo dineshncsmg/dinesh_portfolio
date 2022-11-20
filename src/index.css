@@ -81,8 +81,6 @@ body{
   /* ----------------------------- */
   /*        Base Style End         */
   /* ----------------------------- */
-  
-  
   /* ------------------------------ */
 /* Header section starts          */
 /* ------------------------------ */
@@ -105,7 +103,7 @@ header .navbar-brand img{
   padding: 0;
 }
 header .container{
-  width: 93%;
+  width: 97%;
   max-width: 100%;
   padding: 0;
 }
@@ -148,14 +146,14 @@ color: #000;
 @media(max-width:991px){
 
   header .navbar-brand img {
-      width: 100%;
+    width: 71%;
   }
   header .container{
       margin: auto;
       width: 96%;
   }
   .navbar-toggler{
-      /* background-image: url(./img/mobile-menu.png); */
+      background-image: url(/src/images/menu.png);
       background-size: 2rem;
       background-repeat: no-repeat;
       padding: 0;
@@ -181,8 +179,10 @@ color: #000;
   .navbar-toggler {
     background-size: 1.8rem;
     position: relative;
-    right: -13rem;
+    right: 0rem;
   }
+
+
 }
 
 @media(max-width:767px){
@@ -196,7 +196,7 @@ color: #000;
       width: 100%;
   }
   .navbar-toggler {
-      right: -1rem;
+      right: 0rem;
   }
 
 }
@@ -204,92 +204,98 @@ color: #000;
 /* ------------------------------ */
 /* Header section ends           */
 /* ------------------------------ */
-  
+
 
 /* ------------------------------ */
 /* banner styles starts           */
 /* ------------------------------ */
 .banner_dinesh{
-  padding: 0;
-  background-color: #fad0c4;
-  z-index: 1;
-  overflow: hidden;
-  /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-  background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%); */
-  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+padding: 0;
+background-color: #fad0c4;
+z-index: 1;
+overflow: hidden;
+/* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%); */
+background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
 }
 .banner_dinesh:after{
-    position: absolute;
-    content: "</>";
-    font-size: 62rem;
-    right: 2rem;
-    top: -32rem;
-    z-index: -1;
-    color: #ffffff26;
-    letter-spacing: -6rem;
-    font-weight: bold;
-    height: 0;
+  position: absolute;
+  content: "</>";
+  font-size: 62rem;
+  right: 2rem;
+  top: -32rem;
+  z-index: -1;
+  color: #ffffff26;
+  letter-spacing: -6rem;
+  font-weight: bold;
+  height: 0;
 }
 
 .banner_dinesh h1{
-  text-align: left;
-  color: #671267;
+text-align: left;
+color: #671267;
 }
 .banner_dinesh h2{
-    text-align: left;
+  text-align: left;
 }
 .banner_dinesh .image{
-   overflow: hidden;
-   text-align: center;
+ overflow: hidden;
+ text-align: center;
 }
 
 .banner_dinesh img{
-  width: 31vw;
-  border-radius: 1.5rem;
-  position: relative;
-  top: 0rem;
-  padding: 6.2rem 0 0;
+width: 31vw;
+border-radius: 1.5rem;
+position: relative;
+top: 0rem;
+padding: 6.2rem 0 0;
 }
 
 .banner_dinesh  .intro{
-  position: absolute;
-  top:35%;
-  bottom: 0;
-  width: 100%;
-  margin: auto;
+position: absolute;
+top:35%;
+bottom: 0;
+width: 100%;
+margin: auto;
 }
 
 .banner_dinesh .resume{
-  margin-top: 3rem;
+margin-top: 3rem;
 }
 
 .banner_dinesh .resume a{
-   color: #671267;
-   padding: .8rem 1rem;
-   border: 2px solid #671267;
-   border-radius: .3rem;
-   font-size: 1.2rem;
-   font-weight: bold;
+ color: #671267;
+ padding: .8rem 1rem;
+ border: 2px solid #671267;
+ border-radius: .3rem;
+ font-size: 1.2rem;
+ font-weight: bold;
 }
 @media(max-width:991px){
 .banner_dinesh .intro {
-  top: 21%;
+top: 21%;
+}
+.banner_dinesh h1{
+    font-size: calc(11px + 1.6vw);
+}
+.banner_dinesh h2 {
+  font-size: calc(16px + 1.1vw);
 }
 }
 
 @media(max-width:767px){
-  .banner_dinesh {
-    padding: 6rem 0 0;
-  }
-  .banner_dinesh .intro {
-    position: relative;
-    top: 0;
-  }
-  .banner_dinesh img {
-    width: 100%;
-  }
+.banner_dinesh {
+  padding: 6rem 0 0;
+}
+.banner_dinesh .intro {
+  position: relative;
+  top: 0;
+}
+.banner_dinesh img {
+  width: 100%;
+}
 }
 
 /* ------------------------------ */
@@ -297,7 +303,7 @@ color: #000;
 /* ------------------------------ */
 
 
-  
+
 /* ------------------------------ */
 /* about me styles starts          */
 /* ------------------------------ */
@@ -314,9 +320,9 @@ text-align: center;
 }
 
 
-.about_dinesh p{
+/* .about_dinesh p{
 
-}
+} */
 .about_dinesh .image{
    text-align: center;
 }
@@ -338,17 +344,34 @@ text-align: center;
   width: 37%;
 }
 @media(max-width:991px){
-
+  .about_dinesh .about-me {
+      position: relative;
+      top: 2rem;
+  }
+  .about_dinesh .wrapper p{
+  font-size: calc(13px + 0.2vw);
+ }
+ .about_dinesh .image img {
+  width: 100%;
+  margin-top: 3rem;
+ }
 }
 
 @media(max-width:767px){
-
+  .about_dinesh .wrapper img {
+      width: 76%;
+  }
+  .about_dinesh .about-me .col-md-6{
+      width: 50%;
+  }
+  .about_dinesh .wrapper p {
+      font-size: calc(14px + 0.2vw);
+  }
 }
 
 /* ------------------------------ */
 /* about me styles ends           */
 /* ------------------------------ */
-
 
 
 
@@ -409,7 +432,24 @@ padding: 1rem 1.5rem;
   transform: rotate(45deg);
 }
 @media(max-width:991px){
-
+  .experience_dinesh .experience {
+      position: relative;
+      width: 100%;
+      top: 0;
+  }
+  .experience_dinesh span {
+      width: 87%;
+  }
+  .experience_dinesh .image img {
+      width: 100%;
+      margin-top: 2rem;
+  }
+  .experience_dinesh h3 {
+    font-size: calc(13px + .6vw);
+}
+  .experience_dinesh p {
+      font-size: calc(13px + 0.2vw);
+  }
 }
 
 @media(max-width:767px){
@@ -420,6 +460,7 @@ padding: 1rem 1.5rem;
 /* ------------------------------ */
 /*   experience styles ends      */
 /* ------------------------------ */
+
 
 
 
@@ -438,7 +479,9 @@ width: 12rem;
 }
 
 @media(max-width:991px){
-
+  .skills_dinesh img {
+      width: 9rem;
+  }
 }
 
 @media(max-width:767px){
@@ -470,6 +513,9 @@ width: 12rem;
 /* ------------------------------ */
 /*   contact styles ends      */
 /* ------------------------------ */
+
+
+
 
 
 
