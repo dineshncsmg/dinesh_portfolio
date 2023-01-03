@@ -585,6 +585,9 @@ font-size: calc(12px + 0.4vw);
   margin-bottom: 1rem;
   resize: none;
 }
+.contact_dinesh .row{
+   justify-content: center;
+}
 @media(max-width:991px){
 
 }
