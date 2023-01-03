@@ -12,17 +12,25 @@ const Contact = () => (
                         <h3>Mobile</h3>
                         <a href="tel:+918220541149"> +91 8220541149</a>
                   </div>
+              </div>
+           </div>
+           <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div className="contact-info">
                   <div className="card">
                         <h3>Email</h3>
                         <a href="mailto:+918220541149">dineshncsmg@gmail.com</a>
-                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <div className="contact-info">
                     <div className="card">
                         <h3>Location</h3>
                         <p>Chennai, India</p>
                   </div>  
               </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          {/* <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <div className="form">
                 <form action="" method="POST">
                     <div className="form-group">
@@ -41,7 +49,7 @@ const Contact = () => (
                   </form>
 
               </div>
-         </div>
+         </div> */}
       </div>
     </div>
   </section>
