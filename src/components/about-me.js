@@ -22,7 +22,7 @@ const AboutMe = () => (
                         <div className="col-md-6">
                             <div className="wrapper">
                                 <img src={Experience} alt=""/>
-                                <p>2 Years & months Experience</p>
+                                <p>2 Years & 6 months Experience</p>
                             </div>
                         </div>
                         <div className="col-md-6">
