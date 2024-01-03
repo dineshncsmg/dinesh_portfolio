@@ -10,7 +10,7 @@ const Experience = () => (
           <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
               <div className="experience">
                 <div className="card">
-                    <span>April 2022 - Present</span>
+                    <span>April 2022 - Dec 2023</span>
                     <h3>Web Developer - Xerago</h3>
                     <p>Chennai</p>
                  </div>
