@@ -10,7 +10,7 @@ const Footer = () => (
                     <div className="col-md-12 col-sm-12 col-xs-12 column-1">
                     <div className="copyright">
                         <p>  
-                            Copyright © 2022. All rights reserved.
+                            Copyright © 2024. All rights reserved.
                         </p>
                     </div>
                     </div>
